@@ -1,0 +1,27 @@
+.hobby-container {
+  width: 250px;
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hobby-title {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.hobby-list {
+  list-style-type: square;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.hobby-item {
+  margin: 5px 0;
+  font-size: 16px;
+}

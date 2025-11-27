@@ -1,0 +1,28 @@
+/* src/components/PersonalBio.css */
+
+.bio-container {
+  background: #f2f2f2;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bio-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.bio-age {
+  font-size: 18px;
+  color: #555;
+}
+
+.bio-text {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #666;
+}

@@ -1,0 +1,18 @@
+.avatar-container {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.avatar-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #555;
+}
+
+.avatar-caption {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
