@@ -164,52 +164,88 @@
 //     </div>
 //   );
 // }
-import Counter from "./Components/Counter.jsx";
-import NameDisplay from "./Components/NameDisplay.jsx";
-import TaskList from "./Components/TaskList.jsx";
-import LightToggle from "./Components/LightToggle.jsx";
-import WhatIsState from "./Components/WhatIsState.jsx";
-import StateVsProps from "./Components/StateVsProps.jsx";
-import CounterBasic from "./Components/CounterBasic.jsx";
-import CounterIncrement from "./Components/CounterIncrement.jsx";
-import NameState from "./Components/NameState.jsx";
-import TwoStates from "./Components/TwoStates.jsx";
-import ToggleBoolean from "./Components/ToggleBoolean.jsx";
-import InputWithState from "./Components/InputWithState.jsx";
-import CounterReset from "./Components/CounterReset.jsx";
-import TaskArray from "./Components/TaskArray.jsx";
-import AddItem from "./Components/AddItem.jsx";
-import RemoveItem from "./Components/RemoveItem.jsx";
-import ConditionalTasks from "./Components/ConditionalTasks.jsx";
+// import Counter from "./Components/Counter.jsx";
+// import NameDisplay from "./Components/NameDisplay.jsx";
+// import TaskList from "./Components/TaskList.jsx";
+// import LightToggle from "./Components/LightToggle.jsx";
+// import WhatIsState from "./Components/WhatIsState.jsx";
+// import StateVsProps from "./Components/StateVsProps.jsx";
+// import CounterBasic from "./Components/CounterBasic.jsx";
+// import CounterIncrement from "./Components/CounterIncrement.jsx";
+// import NameState from "./Components/NameState.jsx";
+// import TwoStates from "./Components/TwoStates.jsx";
+// import ToggleBoolean from "./Components/ToggleBoolean.jsx";
+// import InputWithState from "./Components/InputWithState.jsx";
+// import CounterReset from "./Components/CounterReset.jsx";
+// import TaskArray from "./Components/TaskArray.jsx";
+// import AddItem from "./Components/AddItem.jsx";
+// import RemoveItem from "./Components/RemoveItem.jsx";
+// import ConditionalTasks from "./Components/ConditionalTasks.jsx";
+
+// function App() {
+//   return (
+//     <div style={{ padding: "20px" }}>
+//       <h1> Day 6 Mini Projects</h1>
+
+//       <Counter />
+//       <NameDisplay />
+//       <TaskList />
+//       <LightToggle />
+
+//      <h1>Day 6 Tasks</h1>
+
+//       <WhatIsState />
+//       <StateVsProps />
+//       <CounterBasic />
+//       <CounterIncrement />
+//       <NameState />
+//       <TwoStates />
+//       <ToggleBoolean />
+//       <InputWithState />
+//       <CounterReset />
+//       <TaskArray />
+//       <AddItem />
+//       <RemoveItem />
+//       <ConditionalTasks />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+import ListRenderingIntro from "./Components/ListRenderingIntro.jsx";
+import BasicListRendering from "./Components/BasicListRendering.jsx";
+import ListWithKeys from "./Components/ListWithKeys.jsx";
+import ListOfObjects from "./Components/ListOfObjects.jsx";
+import ListInlineStyle from "./Components/ListInlineStyle.jsx";
+import ConditionalAnd from "./Components/ConditionalAnd.jsx";
+import ConditionalTernary from "./Components/ConditionalTernary.jsx";
+
+import EmptyListCheck from "./Components/EmptyListCheck.jsx";
+import MultipleReturn from "./Components/MultipleReturn.jsx";
+import ClickEventList from "./Components/ClickEventList.jsx";
+import ToggleList from "./Components/ToggleList.jsx";
+import FilteredList from "./Components/FilteredList.jsx";
 
 function App() {
   return (
-    <div style={{ padding: "20px" }}>
-      <h1> Day 6 Mini Projects</h1>
-
-      <Counter />
-      <NameDisplay />
-      <TaskList />
-      <LightToggle />
-        <h1>Day 6 Tasks</h1>
-
-      <WhatIsState />
-      <StateVsProps />
-      <CounterBasic />
-      <CounterIncrement />
-      <NameState />
-      <TwoStates />
-      <ToggleBoolean />
-      <InputWithState />
-      <CounterReset />
-      <TaskArray />
-      <AddItem />
-      <RemoveItem />
-      <ConditionalTasks />
+    <div>
+      <h1>day5 tasks</h1>
+      <ListRenderingIntro />
+      <BasicListRendering />
+      <ListWithKeys />
+      <ListOfObjects />
+      <ListInlineStyle />
+      <ConditionalAnd />
+      <ConditionalTernary />
+      <EmptyListCheck />
+      <MultipleReturn />
+      <ClickEventList />
+      <ToggleList />
+      <FilteredList />
     </div>
   );
 }
 
 export default App;
-
-
